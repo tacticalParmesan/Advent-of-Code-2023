@@ -8,7 +8,7 @@ nerdy ass into space, let's help them with deciphering the calibration docs.
 This is the first puzzle of Day 1 of the Advent of Code 2023 challenge.
 """
 
-# I save the input text for the calibration document into a .txt file
+# I saved the input text for the calibration document into a .txt file
 # since we have to get the sum of every couple of first and last concatenated
 # numbers for every single line.
 
