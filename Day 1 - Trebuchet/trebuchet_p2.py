@@ -10,10 +10,10 @@ nerdy ass into space, let's help them with deciphering the calibration docs.
 """
 
 """
-This is the first puzzle of Day 1 of the Advent of Code 2023 challenge.
+This is the second puzzle of Day 1 of the Advent of Code 2023 challenge.
 """
 
-# I save the input text for the calibration document into a .txt file
+# I saved the input text for the calibration document into a .txt file
 # since we have to get the sum of every couple of first and last concatenated
 # numbers (env if spelled out as words) for every single line.
 
@@ -43,6 +43,6 @@ for line in calibration:
     first_last: str = f"{matches[0]}{matches[-1]}"
 
     # ...convert them into an int and add them up to the result
-    result += int(first_last)
+    result += first_last
 
 print(result)
