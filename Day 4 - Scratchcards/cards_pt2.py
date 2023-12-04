@@ -55,8 +55,8 @@ for card in original_cards:
         original_cards[card + i][2] += 1 * original_cards[card][2]
         print(f"Added {1 * original_cards[card][2]} copies to Card {card + i}")
     print("__________________________")
-# Finally sum the copies to the result
-for card in original_cards:
+    
+    # Finally sum the copies to the result
     result += original_cards[card][2]
 
 print("Total cards:", result)
